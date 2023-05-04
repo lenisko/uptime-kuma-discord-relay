@@ -1,0 +1,30 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Test binary
+test
+
+# Output files
+*.exe
+*.test
+*.prof
+
+# Go specific
+bin/
+pkg/
+*.log
+*.test
+.idea/
+.vscode/
+.vs/
+.cache/
+.go-cleanup-*
+
+uptime-kuma-discord-relay
+config.toml

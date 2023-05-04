@@ -1,0 +1,5 @@
+webhook_url = "https://discord.com/api/webhooks/000/xxxx"
+bearer_token = ""
+http_port = 32741
+prod = false
+uptime_url = "https://uptime.domain.com"
