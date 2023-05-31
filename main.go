@@ -117,6 +117,12 @@ func main() {
 			return
 		}
 
+		// Veryify payload monitor name before processing
+		if payload.Monitor.Name == "" {
+			c.JSON(http.StatusBadRequest, gin.H{"error": "missing monitor name"})
+			return
+		}
+
 		discordStatus := &DiscordStatus{
 			color:  65280,
 			status: "Up",
