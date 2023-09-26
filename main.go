@@ -29,7 +29,7 @@ type webhookPayload struct {
 		Port                   string            `json:"port"`
 		MaxRetries             int               `json:"maxretries"`
 		Weight                 int               `json:"weight"`
-		Active                 int               `json:"active"`
+		Active                 bool              `json:"active"`
 		Type                   string            `json:"type"`
 		Interval               int               `json:"interval"`
 		RetryInterval          int               `json:"retryInterval"`
